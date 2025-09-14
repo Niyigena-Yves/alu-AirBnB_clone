@@ -62,9 +62,9 @@ Here are some of the main commands:
 (hbnb) show BaseModel 1234-5678-9012
 [BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-11T12:00:00', 'updated_at': '2025-09-11T12:00:00'}
 
-(hbnb) update BaseModel 1234-5678-9012 name "Kenny"
+(hbnb) update BaseModel 1234-5678-9012 name "yves"
 (hbnb) show BaseModel 1234-5678-9012
-[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-11T12:00:00', 'updated_at': '2025-09-11T12:05:00', 'name': 'Kenny'}
+[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-11T12:00:00', 'updated_at': '2025-09-11T12:05:00', 'name': 'yves'}
 
 (hbnb) all BaseModel
 ["[BaseModel] (1234-5678-9012) {...}"]
