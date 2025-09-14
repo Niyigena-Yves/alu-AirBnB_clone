@@ -15,12 +15,13 @@ The primary objectives of this project include:
 
 The console functions as a compact shell environment. It enables you to engage with the models using straightforward commands.
 
-### How to Start
+### Get Started
 
-1. Clone the repository and move into the folder:
+1. Clone repository and navigate to root directory:
 
 ```bash
-git clone <https://github.com/kimanzialu/alu-AirBnB_clone.git>
+git clone <https://github.com/Niyigena-Yves/alu-AirBnB_clone.git>
+
 cd alu-AirBnB_clone
 ```
 
