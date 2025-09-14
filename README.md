@@ -1,19 +1,19 @@
-# AirBnB Clone Project Description
+# AirBnB Clone
 
-This project is the first step towards building a simple clone of the AirBnB web app. Here, we focus on creating a **command interpreter** (a console) in Python. The console allows us to create, update, delete, and manage objects that represent different parts of the AirBnB system (like users, places, states, etc.). All the data is saved in a JSON file for persistence.
+This project represents the initial phase in developing a basic replica of the AirBnB platform. The focus here is on constructing a command-line interface (a terminal application) using Python. This interface enables users to create, modify, remove, and handle objects that symbolize various components of the AirBnB ecosystem (such as users, locations, regions, etc.). All information is stored in a JSON file to ensure data persistence.
 
-The main goals of this project are to:
+The primary objectives of this project include:
 
-* Learn object-oriented programming in Python.
-* Handle data serialization and deserialization (converting objects to and from JSON).
-* Build a basic storage engine.
-* Practice using a command-line interface.
+* Mastering object-oriented programming concepts in Python.
+* Managing data serialization and deserialization processes (transforming objects to and from JSON format).
+* Developing a fundamental storage system.
+* Gaining experience with command-line interface implementation.
 
 ---
 
 ## The Command Interpreter
 
-The console works like a mini shell. It lets you interact with the models through simple commands.
+The console functions as a compact shell environment. It enables you to engage with the models using straightforward commands.
 
 ### How to Start
 
@@ -60,11 +60,11 @@ Here are some of the main commands:
 1234-5678-9012
 
 (hbnb) show BaseModel 1234-5678-9012
-[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-11T12:00:00', 'updated_at': '2025-09-11T12:00:00'}
+[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-14T03:00:00', 'updated_at': '2025-09-14T03:00:00'}
 
 (hbnb) update BaseModel 1234-5678-9012 name "yves"
 (hbnb) show BaseModel 1234-5678-9012
-[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-11T12:00:00', 'updated_at': '2025-09-11T12:05:00', 'name': 'yves'}
+[BaseModel] (1234-5678-9012) {'id': '1234-5678-9012', 'created_at': '2025-09-14T03:00:00', 'updated_at': '2025-09-14T03:07:00', 'name': 'yves'}
 
 (hbnb) all BaseModel
 ["[BaseModel] (1234-5678-9012) {...}"]
